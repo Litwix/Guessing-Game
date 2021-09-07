@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Guessing Game</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header id="header" class="center">
+            <h1>The Guessing Game</h1>
+            <h3>Guess a number between 1-100</h3>
+        </header>
+
+        <div id="user-input" class="center">
+            <p><input type="text" value="" id="input-box"></p>
+            <button id="submit" class="button">Submit Guess</button>
+            <button id="restart" class="button">Restart</button>
+            <button id="hint" class="button">Hint</button>
+        </div>
+
+        <div id="feedback" class="center">
+            <h3></h3>
+        </div>
+
+        <div id="hintArray" class="center">
+            <h3></h3>
+        </div>
+
+        <div id="guess-info" class="center">
+            <h3 id=remaining class="center">Remaining No. of Guesses: 5</h3>
+            <h3>Previous Guesses:</h3>
+            <span id="guess1" class="guess">?</span>
+            <span id="guess2" class="guess">?</span>
+            <span id="guess3" class="guess">?</span>
+            <span id="guess4" class="guess">?</span>
+            <span id="guess5" class="guess">?</span>
+        </div>
+
+        <footer id="footer" class="center">
+            <h3>Project by Anshu Patel</h3>
+        </footer>
+
+        <script src="guessing-game.js"></script>
+    </body>
+</html>

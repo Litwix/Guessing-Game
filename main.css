@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+#header {
+    margin-top: 75px;
+}
+
+#user-input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#input-box {
+    width: 150px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    text-indent: 15px;
+}
+
+#input-box:hover, #input-box:focus-within {
+    outline: none;
+    border-color: white;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.button {
+    width: 100px;
+    padding: 5px;
+    margin: 0 5px;
+    background-color: rgb(183, 226, 226);
+    border: none;
+}
+
+.button:hover {
+    box-shadow: 0 0 6px 0 lightgray;
+}
+
+#guess-info {
+    margin-top: 50px;
+}
+
+.guess {
+    padding: 5px 25px;
+    border: 1px solid black;
+}
+
+#footer {
+    width: 100%;
+    margin: 0 -10px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(183, 226, 226);
+}
